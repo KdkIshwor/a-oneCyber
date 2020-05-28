@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #343837;
+}
+
+@media(max-width:770px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+   
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ccc;
+    margin-top: .8rem;
+}
+
+.header__title {
+    font-size: 3.5rem;
+    font-family: serif;
+    color:#017B92;
+}
+
+@media(max-width: 992px) {
+    .header__title {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 552px) {
+    .header__title {
+        font-size: 2rem;
+    }
+}
+
+.header__list {
+    font-size: 3rem;
+    font-family: sans-serif;
+    align-self: center;
+    color:#017B92;
+}
+
+@media(max-width: 992px) {
+    .header__list {
+        font-size: 2rem;
+        align-self: center;
+    }
+}
+
+@media(max-width: 992px) {
+    .header__list {
+        font-size: 1.3rem;
+        align-self: center;
+    }
+}
+
+.about {
+    
+    background-image: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .4)), 
+        url(./images/Cyber.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 8rem 8rem;
+}
+
+@media(max-width: 992px) {
+    .about {
+        padding: 6rem 6rem;
+    }
+}
+
+@media(max-width: 770px) {
+    .about {
+        padding: 3rem 3rem;
+    }
+}
+
+@media(max-width: 552px) {
+    .about {
+        padding: 0 0;
+    }
+}
+
+.services {
+    color: #B36FF6;
+    font-size: 6rem;
+    margin-top: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@media(max-width: 992px) {
+    .services {
+        font-size: 5rem;
+         margin-top: 4rem;
+    }
+    
+}
+
+.services__header {
+    color: #B36FF6;
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@media(max-width: 992px) {
+    .services__header {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+}
+
+.info {
+    font-size: 3rem;
+    line-height: 1.6em;
+    font-weight: 700;
+    color: #DFC5FE;
+    text-transform: none;
+    margin: 2px 3px;
+    padding-bottom: 6rem;
+}
+
+@media(max-width: 992px) {
+
+    .info {
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin: 1.5px 2.5px;
+        padding-bottom: 4rem;
+    }
+    
+
+}
+
+@media(max-width: 992px) {
+
+    .info {
+        font-size: 2rem;
+        font-weight: 300;
+        margin: 1px 2px;
+        padding-bottom: 2rem;
+    }
+    
+
+}
+
+
+.card-title {
+    font-size: 1.8rem;
+    border-bottom: 1px solid #244;
+   
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.card-link {
+    font-size: 1.3rem;
+    
+    border: 2px solid #111;
+    border-radius: 10%;
+}
+
+.list-group-item {
+    font-size: 1.3rem;
+}
+
+.footer__link {
+    color: #DFC5FE;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@media(max-width: 992px) {
+    .footer__link {
+        font-size: 2rem;
+    }
+}
+
+.copyright {
+    color: #222;
+    height: 2rem;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 1.5rem;
+}
