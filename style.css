@@ -202,3 +202,10 @@ body {
     text-align: center;
     font-size: 1.5rem;
 }
+
+/* My CSS Code */
+@media (max-width: 600px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}
